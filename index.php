@@ -24,10 +24,10 @@ $server_software = $_SERVER['SERVER_SOFTWARE'];
 $error_content = '';
 
 // on récupère les versions des applis
-$phpVersion = $wampConf['phpVersion'];
-$apacheVersion = $wampConf['apacheVersion'];
-$doca_version = 'doca'.substr($apacheVersion,0,3);
-$mysqlVersion = $wampConf['mysqlVersion'];
+// $phpVersion = $wampConf['phpVersion'];
+// $apacheVersion = $wampConf['apacheVersion'];
+// $doca_version = 'doca'.substr($apacheVersion,0,3);
+// $mysqlVersion = $wampConf['mysqlVersion'];
 
 //On récupére la valeur de urlAddLocalhost
 $suppress_localhost = ($wampConf['urlAddLocalhost'] == 'off' ? true : false);
